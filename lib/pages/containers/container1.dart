@@ -51,10 +51,11 @@ class Container1 extends StatelessWidget {
             height: 45,
             child: ElevatedButton.icon(
                 style: ButtonStyle(
+                    foregroundColor: MaterialStateProperty.all(Colors.white),
                     backgroundColor:
                         MaterialStateProperty.all(AppColors.primary)),
                 onPressed: () {},
-                icon: const Icon(Icons.arrow_drop_down),
+                icon: const Icon(Icons.keyboard_arrow_down),
                 label: const Text('Try a Demo')),
           ),
           const SizedBox(
