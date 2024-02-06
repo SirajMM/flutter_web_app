@@ -5,6 +5,8 @@ import 'package:flutter_web_app/widgets/navbar.dart';
 import '../utils/constants.dart';
 import 'containers/container2.dart';
 import 'containers/container3.dart';
+import 'containers/container4.dart';
+import 'containers/container5.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -26,6 +28,8 @@ class _HomeState extends State<Home> {
             Container1(),
             Container2(),
             Container3(),
+            Container4(),
+            Container5(),
           ],
         ),
       ),
